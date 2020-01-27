@@ -33,3 +33,10 @@ Same as the last step of the intial setup:
 ```sh
 git push heroku yourbranch:master
 ```
+
+## Pulling upstream changes
+
+```sh
+git remote add upstream https://github.com/mars/create-react-app-buildpack.git
+git pull upstream master
+```
